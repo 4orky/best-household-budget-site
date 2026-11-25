@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Hearth Ledger — the Harper household's budget book: the month at a glance, every transaction, budgets, savings goals, bills, a six-month report and a paycheck planner. Runs offline from its own files.">
+<title>Hearth Ledger — the Harper household budget</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">⌂</span> Hearth Ledger</a>
+  <nav aria-label="Sections">
+    <a href="#/" data-page="">Dashboard</a>
+    <a href="#/transactions" data-page="transactions">Transactions</a>
+    <a href="#/budget" data-page="budget">Budget</a>
+    <a href="#/goals" data-page="goals">Goals</a>
+    <a href="#/bills" data-page="bills">Bills</a>
+    <a href="#/reports" data-page="reports">Reports</a>
+    <a href="#/planner" data-page="planner">Planner</a>
+  </nav>
+</header>
+<main id="app"></main>
+<footer class="site-footer">
+  <p>Hearth Ledger — the Harper household budget book, November 2026. A demo household with invented names and figures, built to show how a family keeps its budget. All data lives in this browser only; nothing leaves it.</p>
+  <p><button class="btn btn-small btn-ghost" type="button" id="reset-demo">Reset demo data</button> <span class="muted">Restores the original November figures, undoing any edits made on this device.</span></p>
+</footer>
+</body>
+</html>
